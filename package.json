@@ -1,6 +1,6 @@
 {
 	"name": "@miffy-w/logger",
-	"version": "0.1.5-beta.6",
+	"version": "0.1.5",
 	"author": "miffy",
 	"type": "module",
 	"private": false,
