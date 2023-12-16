@@ -1,5 +1,5 @@
 {
-	"name": "wb-logger",
+	"name": "@miffy-w/logger",
 	"version": "0.1.5-beta.3",
 	"author": "miffy",
 	"type": "module",

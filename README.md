@@ -1,19 +1,19 @@
 # web-logger
 
-`w-log` 是一个在浏览器中写入日志的包，可以通过 `WebWorker` 将日志写入到 `indexedDB` 中，也支持导出文件、过滤敏感信息等功能。
+`@miffy-w/logger` 是一个在浏览器中写入日志的包，可以通过 `WebWorker` 将日志写入到 `indexedDB` 中，也支持导出文件、过滤敏感信息等功能。
 
 ## 下载
 
 ```bash
-pnpm add w-log
+pnpm add @miffy-w/logger
 ```
 
 ```bash
-yarn add w-log
+yarn add @miffy-w/logger
 ```
 
 ```bash
-npm install w-log
+npm install @miffy-w/logger
 ```
 
 ## 使用
@@ -22,8 +22,8 @@ npm install w-log
 
 ```ts
 // App.tsx
-import Worker from 'worker-loader!w-log/lig/log.worker';
-import { createLogger } from 'w-log';
+import Worker from 'worker-loader!@miffy-w/logger/lig/log.worker';
+import { createLogger } from '@miffy-w/logger';
 
 const worker = new Worker();
 
@@ -55,9 +55,9 @@ declare module 'worker-loader!*' {
 官方文档：[Web workers](https://www.webpackjs.com/guides/web-workers/#root)
 
 ```ts
-import { createLogger } from 'w-log';
+import { createLogger } from '@miffy-w/logger';
 const worker = new Worker(
-  new URL('w-log/lig/log.worker', import.meta.url)
+  new URL('@miffy-w/logger/lig/log.worker', import.meta.url)
 );
 
 const logger = createLogger(
