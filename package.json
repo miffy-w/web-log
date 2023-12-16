@@ -2,6 +2,8 @@
 	"name": "@miffy/web-logger",
 	"version": "0.1.2",
 	"type": "module",
+	"types": "./build/index.d.ts",
+	"files": ["./build"],
 	"description": "使用 web worker 和 indexedDB 处理前端日志",
 	"dependencies": {
 		"es6-promisify": "^7.0.0",
