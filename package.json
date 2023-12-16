@@ -16,7 +16,7 @@
 	},
 	"scripts": {
 		"build": "tsc",
-		"prepublishOnly": "pnpm run builld",
+		"prepublishOnly": "npm run build",
 		"publish:patch": "npm version patch && npm publish",
 		"publish:minor": "npm version minor && npm publish",
 		"publish:marjor": "npm version marjor && npm publish",
