@@ -1,7 +1,9 @@
 {
 	"name": "@miffy/web-logger",
 	"version": "0.1.3",
+	"author": "miffy",
 	"type": "module",
+	"private": false,
 	"types": "./build/index.d.ts",
 	"files": [
 		"./build"
