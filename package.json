@@ -1,5 +1,5 @@
 {
-	"name": "w-log",
+	"name": "wb-logger",
 	"version": "0.1.5-beta.0",
 	"author": "miffy",
 	"type": "module",
@@ -19,10 +19,10 @@
 	"scripts": {
 		"build": "tsc",
 		"prepublishOnly": "npm run build",
-		"publish:patch": "npm version patch && npm publish --access=public",
-		"publish:minor": "npm version minor && npm publish --access=public",
-		"publish:marjor": "npm version marjor && npm publish --access=public",
-		"publish:beta": "npm version prerelease --preid=beta && npm publish --tag beta --access=public"
+		"publish:patch": "npm version patch && npm publish",
+		"publish:minor": "npm version minor && npm publish",
+		"publish:marjor": "npm version marjor && npm publish",
+		"publish:beta": "npm version prerelease --preid=beta && npm publish --tag beta"
 	},
 	"keywords": [
 		"log",
