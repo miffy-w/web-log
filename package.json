@@ -1,0 +1,32 @@
+{
+	"name": "@miffy/web-logger",
+	"version": "0.1.1",
+	"type": "module",
+	"description": "使用 web worker 和 indexedDB 处理前端日志",
+	"dependencies": {
+		"es6-promisify": "^7.0.0",
+		"localforage": "^1.10.0",
+		"tslib": "*"
+	},
+	"scripts": {
+		"build": "tsc",
+		"prepublish": "pnpm run builld",
+		"publish:patch": "npm version patch && npm publish",
+		"publish:minor": "npm version minor && npm publish",
+		"publish:marjor": "npm version marjor && npm publish",
+		"publish:beta": "npm version prerelease --preid=beta && npm publish --tag beta"
+	},
+	"keywords": [
+		"log",
+		"indexedDB",
+		"web worker"
+	],
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/",
+		"access": "public"
+	},
+	"devDependencies": {
+		"@types/es6-promisify": "^6.0.4",
+		"typescript": "^5.3.3"
+	}
+}
