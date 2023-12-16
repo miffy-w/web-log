@@ -1,9 +1,11 @@
 {
-	"name": "@miffy/web-logger",
+	"name": "w-log",
 	"version": "0.1.3",
 	"author": "miffy",
 	"type": "module",
 	"private": false,
+	"homepage": "https://github.com/miffy-w/web-log",
+	"repository": "https://github.com/miffy-w/web-log",
 	"types": "./build/index.d.ts",
 	"files": [
 		"./build"
