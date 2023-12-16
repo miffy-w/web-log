@@ -1,6 +1,6 @@
 {
 	"name": "@miffy/web-logger",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"type": "module",
 	"description": "使用 web worker 和 indexedDB 处理前端日志",
 	"dependencies": {
